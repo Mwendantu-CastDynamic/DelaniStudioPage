@@ -11,3 +11,11 @@ body {
 }
 .img-h {
 }
+.col-md-4{
+  float:left;
+  width:25%;
+}
+.col-md-3{
+  float:left;
+  
+}
