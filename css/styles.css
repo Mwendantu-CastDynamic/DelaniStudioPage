@@ -5,17 +5,34 @@
 body {
   font-family: 'Cormorant Garamond', serif;
 }
-.wrapper{
-  margin: 0 auto;
-  width: 100%;
+.WelcomeImage{
+  background-image: url("/images/h_img.jpg");
+  color: white;
+  height:100vh;
 }
-.img-h {
+
+.hide1,.hide2,.hide3{
+  display: none;
 }
+
 .col-md-4{
   float:left;
-  /* width:25%; */
+  width:30%;
 }
 .col-md-3{
   float:left;
-  
+  width:20%;
+  padding:2%;
+}
+.footer{
+  margin-top: 20px;
+  margin-left: 20%;
+}
+.icons{
+  padding: 2%;
+}
+.ContactImage{
+  background-image: url("images/c_image.jpg");
+  color:white;
+  height:100vh;
 }

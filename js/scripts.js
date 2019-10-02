@@ -1,12 +1,21 @@
 jQuery(document).ready(function){(
-  $("button").click(function(){
+  $("design").click(function(){
     $("hide1").toggle();
   });
-  $("button").click(function(){
+  $("development").click(function(){
     $("hide2").toggle();
   });
-  $("button").click(function(){
+  $("product").click(function(){
     $("hide3").toggle();
   });
 });
   
+$("document").ready(function(){
+  $(".design").click(
+    function(){
+      $(".hide1").show();
+      $(".design").hide();
+    }
+  );
+}
+);
