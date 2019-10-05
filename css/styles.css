@@ -2,14 +2,19 @@
   padding:0;
   margin: 0;
 }
+
 body {
   font-family: 'Cormorant Garamond', serif;
+}
+#container{
+
 }
 .WelcomeImage{
   background-image: url("/images/h_img.jpg");
   color: white;
   height:100vh;
 }
+
 
 .hide1,.hide2,.hide3{
   display: none;

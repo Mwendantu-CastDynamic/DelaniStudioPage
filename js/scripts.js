@@ -1,11 +1,11 @@
 jQuery(document).ready(function){(
-  $("design").click(function(){
+  $(".design").click(function(){
     $("hide1").toggle();
   });
-  $("development").click(function(){
+  $(".development").click(function(){
     $("hide2").toggle();
   });
-  $("product").click(function(){
+  $(".product").click(function(){
     $("hide3").toggle();
   });
 });
@@ -15,6 +15,18 @@ $("document").ready(function(){
     function(){
       $(".hide1").show();
       $(".design").hide();
+    }
+  );
+  $(".development").click(
+    function(){
+      $(".hide2").show();
+      $(".development").hide();
+    }
+  );
+  $(".product").click(
+    function(){
+      $(".hide3").show();
+      $(".product").hide();
     }
   );
 }
