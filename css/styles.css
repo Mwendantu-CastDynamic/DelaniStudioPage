@@ -7,24 +7,35 @@ body {
   font-family: 'Cormorant Garamond', serif;
 }
 #container{
-
+margin-left: 10%;
+margin-right: 10%;
 }
 .WelcomeImage{
+  float:left;
+  margin-left: 10%;
   background-image: url("/images/h_img.jpg");
   color: white;
+  width:280vh;
   height:100vh;
  text-align: center;
 
 }
 .WelcomeImage.DelaniDLogo{
-  place-self: bottom;
-  
+  text-align:center; 
 }
-.ServicesImage{
-  background-image: url("/images/s_image.jpg")
-  height:100vh;
-  text: bottom;
+.aboutUs{
 
+}
+.servicesImage{
+  float:left;
+  margin-left:5%;
+  background-image: url("/images/s_image.jpg");
+  color:white;
+  width:400vh;
+  height:60vh;
+  text-align:center;
+  text-emphasis:large; 
+   
 }
 
 .hide1,.hide2,.hide3{
@@ -32,30 +43,31 @@ body {
 }
 
 .col-md-4{
-  /* float:left; */
+  float:left;
   width:15%;
-  border:1%;
   padding:2%;
 }
 
 .port{
-  padding: 50%;
+  padding: 1%;
   
 }
 .col-md-3{
   float:left;
-  width:20%;
-  padding:2%;
+  width:10%;
+  padding:1%;
 }
 .footer{
   margin-top: 20px;
   margin-left: 20%;
 }
 .icons{
-  padding: 2%;
+  padding: 0.1%;
 }
-.ContactImage{
+.contactUs{
   background-image: url("/images/c_image.jpg");
   color:white;
+  width:380vh;
   height:100vh;
+  opacity: 50%;
 }
