@@ -13,16 +13,34 @@ body {
   background-image: url("/images/h_img.jpg");
   color: white;
   height:100vh;
-}
+ text-align: center;
 
+}
+.WelcomeImage.DelaniDLogo{
+  place-self: bottom;
+  
+}
+.ServicesImage{
+  background-image: url("/images/s_image.jpg")
+  height:100vh;
+  text: bottom;
+
+}
 
 .hide1,.hide2,.hide3{
   display: none;
 }
 
 .col-md-4{
-  float:left;
-  width:30%;
+  /* float:left; */
+  width:15%;
+  border:1%;
+  padding:2%;
+}
+
+.port{
+  padding: 50%;
+  
 }
 .col-md-3{
   float:left;
@@ -37,7 +55,7 @@ body {
   padding: 2%;
 }
 .ContactImage{
-  background-image: url("images/c_image.jpg");
+  background-image: url("/images/c_image.jpg");
   color:white;
   height:100vh;
 }
